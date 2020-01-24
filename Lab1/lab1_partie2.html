@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" style="height:100%">
+    <head>
+    </head>
+    <body style="display:flex; flex-direction:column; height:100%; align-items:stretch ; background-image : url('./images/téléchargement.png'); background-size: cover" id="Header" style="flex-grow:1">
+        <header style="background: url('./images/téléchargement2.jpg');background-size: cover">
+
+            <div><a href="https://enligne.cegepjonquiere.ca/ColNet/login.asp?_ga=2.64007727.1081018956.1579554262-48807233.1579554262">Se connecter</a><a href="lab1_partie1.html"style="float: right">Partie 1</a></div>
+        </header>
+
+        <div id="Body" style="display:flex; flex-direction:row; flex-grow:3">
+            <form method="post">
+
+                <div style="margin-left:5%; display: flex ">
+                    <label for="Prenom" style="width: 200px">Prenom :</label><input type="text" id="Prenom">
+                    <label for="Nom" style="width: 200px">Nom :</label><input type="text" id="Nom">
+                </div>
+                <div style="margin-left:5%; display: flex ; margin-top: 1%">
+                    <label for="DatedeNaissance" style="width: 200px">Date de Naissance :</label><input type="date" id="DatedeNaissance">
+                    <label for="AdresseC" style="width: 200px">Adresse courriel :</label><input type="email" id="AdresseC">
+                </div>
+                <div style="margin-left:5%; display: flex ;margin-top: 1%">
+                    <label for="telephone" style="width: 200px">Numéro de téléphone :</label><input type="tel" id="telephone">
+                    <label for="AdresseL" style="width: 200px">Adresse de livraison :</label><input type="text" id="AdresseL">
+                </div>
+                <div style="display: flex; flex-direction: row;margin-left:5%;margin-top: 1% ">
+                    <div style="display: flex;flex-direction: column; ">
+                        <div>
+                            <label name="liste">Type de pizza</label>
+                            <select name="maliste">
+                                <option value="choix1">Garnie</option>
+                                <option value="choix2">Peperoni</option>
+                                <option value="choix3">Deluxe</option>
+                                <option value="choix4">Trois frommages</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="extra1" value="extraChampigon">Extra champignon
+                        </div>
+                        <div>
+                            <input type="checkbox" name="extra2" value="extraPeperoni">Extra Peperoni
+                        </div>
+                        <div>
+                            <input type="checkbox" name="extra3" value="extraBacon">Extra Bacon
+                        </div>
+                        <div>
+                            <input type="checkbox" name="extra4" value="extraFrommage">Extra Frommage
+                        </div>
+                    </div>
+                    <div style="display: flex;flex-direction: column">
+                        <label class="radio-inline">type de croute:</label>
+                        <label class="radio-inline"><input type="radio" id="typeCroute1"  name="typeCroute"> Croute mince</label>
+                        <label class="radio-inline"><input type="radio" id="typeCroute2" name="typeCroute">Croute original</label>
+                        <label class="radio-inline"><input type="radio" id="typeCroute3" name="typeCroute">Croute original</label>
+                        <label class="radio-inline"><input type="radio" id="typeCroute4" name="typeCroute">Croute original</label>
+                    </div>
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer" style="margin-left:5%">
+                </div>
+            </form>
+        </div>
+        <div id="Footer" style="flex-grow:1">
+            <div><span>Liam Jourdain</span><span style="margin-left: 50%; color:red">Grand Baiseur</span><span style="float:right">JOULI1933471</span></div>
+        </div>
+    </body>
+</html>
